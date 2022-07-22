@@ -12,13 +12,11 @@ export default function Pshop({ PshopsObj }) {
         </>
       ) : (
         <>
-          <section id="header" className="jumbotron text-center">
-            <h1 className="display-3">Plumber Shops</h1>
-            <p className="lead">Find The best Plumbing Shop you need!!!</p>
-          </section>
-          <section id="gallery">
-            <div className="container">
-              <div className="row">
+          <div className="container eleccontainer">
+          <div className="banner">
+            <h1>Plumber Shops</h1>
+          </div>          
+            <div className="row">
                 {PshopsObj.map((Pshop, key) => (
                   <>
                     <div className="col-lg-4 mb-4">
@@ -26,7 +24,7 @@ export default function Pshop({ PshopsObj }) {
                         <img
                           src="http://geersplumbing.com/wp-content/uploads/2011/05/orange-county-bath-remodel-22.jpg"
                           alt=""
-                          className="card-img-top"
+                          className="card_image"
                         />
                         <div className="card-body">
                           <h2 className="card-title">
@@ -54,9 +52,9 @@ export default function Pshop({ PshopsObj }) {
                               },
                             }}
                           >
-                            <a href className="btn btn-outline-success btn-sm">
-                              Items
-                            </a>
+                           <button type="button" className="boxbutton">
+                                Items
+                            </button>
                           </Link>
                         </div>
                       </div>
@@ -65,7 +63,6 @@ export default function Pshop({ PshopsObj }) {
                 ))}
               </div>
             </div>
-          </section>
         </>
       )}
     </>

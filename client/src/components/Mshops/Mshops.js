@@ -12,9 +12,6 @@ export default function Mshops() {
   return (
     <>
       <Navbar />
-      <br />
-      <br />
-      <br />
       <Mshop MshopsObj={es} />
     </>
   );

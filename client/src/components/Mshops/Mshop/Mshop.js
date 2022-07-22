@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+import "./Mshop.css";
+
 export default function Mshop({ MshopsObj }) {
   return (
     <>
@@ -10,21 +12,19 @@ export default function Mshop({ MshopsObj }) {
         </>
       ) : (
         <>
-          <section id="header" className="jumbotron text-center">
-            <h1 className="display-3">Mechanic Shops</h1>
-            <p className="lead">Find The best Mechanic Shop you need!!!</p>
-          </section>
-          <section id="gallery">
-            <div className="container">
-              <div className="row">
+          <div className="container eleccontainer">
+          <div className="banner">
+            <h1>Mechanical Shops</h1>
+          </div>
+          <div className="cards">
                 {MshopsObj.map((Mshop, key) => (
                   <>
-                    <div className="col-lg-4 mb-4">
+                    <div className="col-lg-4 mb-4 eleccards">
                       <div className="card">
                         <img
                           src="https://st4.depositphotos.com/1203257/20641/i/600/depositphotos_206411656-stock-photo-winter-season-tire-tread-brand.jpg"
                           alt=""
-                          className="card-img-top"
+                          className="card_image"
                         />
                         <div className="card-body">
                           <h2 className="card-title">
@@ -37,12 +37,12 @@ export default function Mshop({ MshopsObj }) {
                           <p>
                             Address : <b>{Mshop.address}</b>
                           </p>
-                          <br /> <br /> <br />
+                          <br />
                           <i className="fas fa-user"></i> Owner :{" "}
                           {Mshop.ownerName} <br />
-                          <i className="fas fa-phone-square"></i> {"     "}
+                          <i className="fas fa-phone-square"></i> Phone :{"     "}
                           {Mshop.phoneNo} <br />
-                          <i className="fas fa-envelope-square"></i>{" "}
+                          <i className="fas fa-envelope-square"></i>Mail :{" "}
                           {Mshop.email} <br /> <br />
                           <Link
                             to={{
@@ -51,10 +51,10 @@ export default function Mshop({ MshopsObj }) {
                                 shopprop: true,
                               },
                             }}
-                          >
-                            <a href className="btn btn-outline-success btn-sm">
-                              Items
-                            </a>
+                          >                            
+                              <button type="button" className="boxbutton">
+                                Items
+                              </button>
                           </Link>
                         </div>
                       </div>
@@ -63,7 +63,6 @@ export default function Mshop({ MshopsObj }) {
                 ))}
               </div>
             </div>
-          </section>
         </>
       )}
     </>

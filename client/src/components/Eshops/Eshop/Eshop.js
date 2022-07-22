@@ -10,13 +10,11 @@ export default function Eshop({ EshopsObj }) {
         </>
       ) : (
         <>
-          <section id="header" className="jumbotron text-center">
-            <h1 className="display-3">Electric Shops</h1>
-            <p className="lead">Find The best Electric Shop you need!!!</p>
-          </section>
-          <section id="gallery">
-            <div className="container">
-              <div className="row">
+          <div className="container eleccontainer">
+          <div className="banner">
+            <h1>Electrical Shops</h1>
+          </div>          
+            <div className="cards">
                 {EshopsObj.map((Eshop, key) => (
                   <>
                     <div className="col-lg-4 mb-4">
@@ -24,7 +22,7 @@ export default function Eshop({ EshopsObj }) {
                         <img
                           src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/3eca3062037097.5a8fec1b66428.jpg"
                           alt=""
-                          className="card-img-top"
+                          className="card_image"
                         />
                         <div className="card-body">
                           <h2 className="card-title">
@@ -52,9 +50,9 @@ export default function Eshop({ EshopsObj }) {
                               },
                             }}
                           >
-                            <a href className="btn btn-outline-success btn-sm">
-                              Items
-                            </a>
+                            <button type="button" className="boxbutton">
+                                Items
+                            </button>
                           </Link>
                         </div>
                       </div>
@@ -63,7 +61,6 @@ export default function Eshop({ EshopsObj }) {
                 ))}
               </div>
             </div>
-          </section>
         </>
       )}
     </>
