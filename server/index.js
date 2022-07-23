@@ -50,7 +50,7 @@ app.use(cors());
 app.use(morgan("dev"));
 
 app.get("/", (req, res) => {
-  res.send("hello and Welcome to PEM joy application");
+  res.send("Backend setup");
 });
 
 //---------------------------------Routes-----------------------------------------
@@ -95,8 +95,8 @@ app.get("/send-text", (req, res) => {
   client.messages
     .create({
       body: `name of customer ${customer}. location:  https://gps-coordinates.org/my-location.php?lat=${lat}&lng=${lon}`,
-      to: "+917013637725", // Text this number
-      from: "+19285648843", // From a valid Twilio number
+      to: "9876543210", // Text this number
+      from: "9876543210", // From a valid Twilio number
     })
     .then((message) => console.log(message.body))
     .catch((error) => console.log(error.message));
