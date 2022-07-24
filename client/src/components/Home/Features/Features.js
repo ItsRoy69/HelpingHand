@@ -19,8 +19,8 @@ export default function Features() {
           <div className="carousel-item active">
             <img src={banner1} className="d-block w-100" alt="..." />
             <div className="carousel-caption d-none d-md-block">
-              <h5>First slide label</h5>
-              <p>Some representative placeholder content for the first slide.</p>
+              <h5>It's your call</h5>
+              <p>Helping hand provides you with all the services you need at your doorstep. All you have to do is ask.</p>
             </div>
           </div>
           <div className="carousel-item">
