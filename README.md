@@ -18,26 +18,28 @@
 </div>
 
 
-## What is Devmeet ? 🤔
+## What is Helping Hand ? 🤔
 
 Helping hand provides you with all the services you need at your doorstep. All you have to do is ask.
 
  ## Checkout our app to learn more!
 
-Frontend Link: https://devmeet.netlify.app/
-Backend Link: https://devmeet.netlify.app/
+Frontend Link: https://helping-handed.vercel.app/
+
+Backend Link: https://anyhelper-backend.herokuapp.com
 
 ## Architecture of the web app
 
 <img src="https://user-images.githubusercontent.com/72182438/162618703-5a75696f-bf39-4eb3-bc73-c198bbe48732.svg" width="100%">
 
-## How you can find a teammate for a hackathon or project
+## How you can find a helping hand for a work
 
 <img src="https://user-images.githubusercontent.com/72182438/162618669-2f6e256b-6923-4866-9b13-97c75e97719b.svg" width="100%">
 
 ## Some snapshots of our web app
-<img src="https://user-images.githubusercontent.com/78967360/163703449-ea5dd0da-2f17-49d2-9669-5e12adade947.png" width="100%">
-<img src="https://user-images.githubusercontent.com/78967360/163703244-27f54eeb-30df-4922-813c-60eedf07d278.png" width="100%">
+<img src="https://user-images.githubusercontent.com/78967360/180633023-8a80dc23-1c81-4f92-b5ed-02b38cb42e18.png" width="100%">
+<img src="https://user-images.githubusercontent.com/78967360/180633045-9d8b6f00-c9ae-48ce-a3f9-a05b3e52133d.png" width="100%">
+
 
 ## Getting started
 
