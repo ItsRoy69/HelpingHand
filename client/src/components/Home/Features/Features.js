@@ -26,15 +26,15 @@ export default function Features() {
           <div className="carousel-item">
             <img src={banner2} className="d-block w-100" alt="..." />
             <div className="carousel-caption d-none d-md-block">
-              <h5>Second slide label</h5>
-              <p>Some representative placeholder content for the second slide.</p>
+              <h5>Help-seeker </h5>
+              <p>People who are in need of services like plumber, electrician etc. , can contact them  with just some clicks. </p>
             </div>
           </div>
           <div className="carousel-item">
             <img src={banner3} className="d-block w-100" alt="..." />
             <div className="carousel-caption d-none d-md-block">
-              <h5>Third slide label</h5>
-              <p>Some representative placeholder content for the third slide.</p>
+              <h5>Job availability</h5>
+              <p>You can earn from here by applying for what you're good at. There are many options available.</p>
             </div>
           </div>
         </div>
