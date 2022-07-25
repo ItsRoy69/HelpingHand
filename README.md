@@ -30,11 +30,7 @@ Backend Link: https://anyhelper-backend.herokuapp.com
 
 ## Architecture of the web app
 
-<img src="https://user-images.githubusercontent.com/72182438/162618703-5a75696f-bf39-4eb3-bc73-c198bbe48732.svg" width="100%">
-
-## How you can find a helping hand for a work
-
-<img src="https://user-images.githubusercontent.com/72182438/162618669-2f6e256b-6923-4866-9b13-97c75e97719b.svg" width="100%">
+<img src="https://user-images.githubusercontent.com/78967360/180774440-c5525afe-7be1-4e8e-a45b-1ee46db3925e.png" width="100%">
 
 ## Some snapshots of our web app
 <img src="https://user-images.githubusercontent.com/78967360/180633023-8a80dc23-1c81-4f92-b5ed-02b38cb42e18.png" width="100%">
