@@ -13,9 +13,9 @@ export default function Pshop({ PshopsObj }) {
       ) : (
         <>
           <div className="container eleccontainer">
-          <div className="banner">
-            <h1>Plumber Shops</h1>
-          </div>          
+            <div className="banner">
+              <h1>Plumber Shops</h1>
+            </div>          
             <div className="row">
                 {PshopsObj.map((Pshop, key) => (
                   <>
@@ -37,12 +37,12 @@ export default function Pshop({ PshopsObj }) {
                           <p>
                             Address : <b>{Pshop.address}</b>
                           </p>
-                          <br /> <br /> <br />
+                          <br />
                           <i className="fas fa-user"></i> Owner :{" "}
                           {Pshop.ownerName} <br />
-                          <i className="fas fa-phone-square"></i> {"     "}
+                          <i className="fas fa-phone-square"></i> Phone :{"     "}
                           {Pshop.phoneNo} <br />
-                          <i className="fas fa-envelope-square"></i>{" "}
+                          <i className="fas fa-envelope-square"></i>Mail :{" "}
                           {Pshop.email} <br /> <br />
                           <Link
                             to={{
@@ -52,7 +52,7 @@ export default function Pshop({ PshopsObj }) {
                               },
                             }}
                           >
-                           <button type="button" className="boxbutton">
+                            <button type="button" className="boxbutton">
                                 Items
                             </button>
                           </Link>

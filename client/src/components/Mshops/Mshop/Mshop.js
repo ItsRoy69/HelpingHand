@@ -16,10 +16,10 @@ export default function Mshop({ MshopsObj }) {
           <div className="banner">
             <h1>Mechanical Shops</h1>
           </div>
-          <div className="cards">
+          <div className="row">
                 {MshopsObj.map((Mshop, key) => (
                   <>
-                    <div className="col-lg-4 mb-4 eleccards">
+                    <div className="col-lg-4 mb-4">
                       <div className="card">
                         <img
                           src="https://st4.depositphotos.com/1203257/20641/i/600/depositphotos_206411656-stock-photo-winter-season-tire-tread-brand.jpg"

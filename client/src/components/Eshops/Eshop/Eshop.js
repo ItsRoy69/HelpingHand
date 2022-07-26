@@ -14,7 +14,7 @@ export default function Eshop({ EshopsObj }) {
           <div className="banner">
             <h1>Electrical Shops</h1>
           </div>          
-            <div className="cards">
+            <div className="row">
                 {EshopsObj.map((Eshop, key) => (
                   <>
                     <div className="col-lg-4 mb-4">
@@ -38,9 +38,9 @@ export default function Eshop({ EshopsObj }) {
                           <br /> <br /> <br />
                           <i className="fas fa-user"></i> Owner :{" "}
                           {Eshop.ownerName} <br />
-                          <i className="fas fa-phone-square"></i> {"     "}
+                          <i className="fas fa-phone-square"></i>  Phone :{"     "}
                           {Eshop.phoneNo} <br />
-                          <i className="fas fa-envelope-square"></i>{" "}
+                          <i className="fas fa-envelope-square"></i>Mail :{" "}
                           {Eshop.email} <br /> <br />
                           <Link
                             to={{

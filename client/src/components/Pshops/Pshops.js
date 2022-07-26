@@ -13,11 +13,7 @@ export default function Pshops() {
   return (
     <>
       <Navbar />
-      <br />
-      <br />
-      <br />
       <Pshop PshopsObj={ps} />{" "}
-      {/* passed plumbing shops to Pshop component as props */}
     </>
   );
 }
