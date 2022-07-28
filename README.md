@@ -67,10 +67,4 @@ npm start
 npm run start
 ```
 
-## Team
-
-<a href="https://github.com/HelpingHand/graphs/contributors">
-  <img src="https://user-images.githubusercontent.com/78967360/180906890-55397ed1-abe3-4ac3-b4e2-b90a3a84699d.png" />
-</a>
-
 
