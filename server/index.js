@@ -18,8 +18,8 @@ import { swaggerOptions } from "./swagger.js"
 
 // SMS Imports
 import twilio from "twilio";
-const accountSid = "AC38960bebc221b5d797c102e262e845b8";
-const authToken = "47e4353ea948d8b80111c792893901df";
+const accountSid = "AC404ed4676ed56a7df3e23df54c8a6521";
+const authToken = "af888414f0bd3d586719e92b94d9cbac";
 const client = new twilio(accountSid, authToken);
 
 // Payment Imports
