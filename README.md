@@ -26,7 +26,7 @@ Helping hand provides you with all the services you need at your doorstep. All y
 
 Frontend Link: https://helping-handed.vercel.app/
 
-Backend Link: https://anyhelper-backend.herokuapp.com
+Backend Link: https://helpinghanded-backend.herokuapp.com
 
 ## Architecture of the web app
 
