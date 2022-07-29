@@ -7,7 +7,7 @@ export const swaggerOptions = {
     swaggerDefinition: {
       info: {
         title: "Welcome API",
-        description: "Welcomes all the users to pem-joy application",
+        description: "Welcomes all the users to application",
         contact: {
           name: "WBD group 18",
         },
