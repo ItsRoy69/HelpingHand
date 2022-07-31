@@ -22,9 +22,9 @@ export default function PEM({
           <div className="backgroundStyle">
             <br />
             <center>
-              <button className="heading">
+              <h1 className="heading">
                 <b>Here are the best workers for you!!</b>
-              </button>
+              </h1>
             </center>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <button
