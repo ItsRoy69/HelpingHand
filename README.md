@@ -24,7 +24,7 @@ Helping hand provides you with all the services you need at your doorstep. All y
 
  ## Checkout our app to learn more!
 
-Frontend Link: https://helping-handed.vercel.app/
+Frontend Link: https://helpinghandss.vercel.app/
 
 Backend Link: https://helpinghanded-backend.herokuapp.com
 
