@@ -4,12 +4,6 @@ import { GrFacebookOption, GrGithub } from "react-icons/gr";
 
 import teammember from "../../../assets/teammember.png";
 import team1 from "../../../assets/team1.png";
-import team2 from "../../../assets/team2.png";
-import team3 from "../../../assets/team3.png";
-import team4 from "../../../assets/team4.png";
-import team5 from "../../../assets/team5.png";
-import team6 from "../../../assets/team6.png";
-import team7 from "../../../assets/team7.png";
 
 import "./Team.css";
 
