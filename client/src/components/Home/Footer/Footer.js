@@ -9,7 +9,7 @@ const Footer = () => {
         <footer className="new_footer_area bg_color" id='footer'>            
             <div className="footer_bottom">
                 <div className="text">
-                    <p className="mb-0 f_400">© Roy.. 2022 All rights reserved.</p>
+                    <p className="mb-0 f_400">© HelpingHand 2022 All rights reserved.</p>
                 </div>
             </div>
         </footer>

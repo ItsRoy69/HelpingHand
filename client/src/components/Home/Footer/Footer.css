@@ -1,3 +1,4 @@
+
 .new_footer_top {
     padding: 0px 0px 270px;
     position: relative;
@@ -22,12 +23,16 @@
     color: #858da8;
 }
 .footer_bottom {
-    font-size: 14px;
+  height: 60px;
+    font-size: 18px;
     font-weight: 300;
     line-height: 20px;
-    color: #7f88a6;
+    color: white;
     text-align: center;
     background-color: #2A4C90;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .social_icon a {
     width: 46px;

@@ -11,8 +11,13 @@
   }
   
   .nav-link:hover {
-    color: rgb(198, 212, 0);
+    background-color: rgb(198, 212, 0);
     text-decoration: none;
+    padding: 10px;
+    color: #2A4C90;
+    border-radius: 25px;
+
+
   }
   
   .navbar-toggler-icon {
@@ -26,4 +31,5 @@
   .navbar-brand img{
     width: 50px;
     height: auto;
+    margin-left: 30px;
   }
