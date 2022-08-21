@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900");
 
 .signinBody {
-  font-family: "Poppins", sans-serif;
+  font-family: Manrope, ui-sans-serif, system-ui, sans-serif;
   font-weight: 300;
   font-size: 15px;
   height: 400px;
@@ -78,7 +78,7 @@
   border-radius: 50%;
   color: #ffeba7;
   background-color: #102770;
-  font-family: "unicons";
+  font-family: Manrope, ui-sans-serif, system-ui, sans-serif;
   content: "\eb4f";
   z-index: 20;
   top: -10px;

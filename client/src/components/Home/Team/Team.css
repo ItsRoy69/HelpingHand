@@ -23,7 +23,7 @@
   }
   
   .teammidbannerpicdetailshead p {
-    font-family: "Acme", sans-serif;
+    font-family: Manrope, ui-sans-serif, system-ui, sans-serif;
     font-size: 20px;
     line-height: 28px;
     color: #8c8c99;
@@ -81,7 +81,7 @@
   }
   
   .teamdetailabout h4 {
-    font-family: "Acme", sans-serif;
+    font-family: Manrope, ui-sans-serif, system-ui, sans-serif;
     font-size: 20px;
     line-height: 28px;
     color: #2d3d0f;
