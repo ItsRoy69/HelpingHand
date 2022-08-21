@@ -113,7 +113,7 @@ export default function Service({ customerDetails }) {
               <img src={service6} width={30} alt="Workers Join" />
               <h3 className="  text-truncate workname">Workers Join</h3>
               <span className="text justify-content  ">
-                workers can Join our website and get work.
+                Workers can join our website and get work.
               </span>
               <div className="d-block  ">
                 <Link to="/workerJoin">

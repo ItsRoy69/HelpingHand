@@ -52,7 +52,7 @@ const Team = () => {
             </div>
             <div className="teamdetailcard">
               <div className="teamdetailabout">
-                <h4>Jyotirmoy Roy</h4>
+                <h4>Megha Paul</h4>
                 <p>Web Developer</p>
                 <div className="values-list">
                   <button className="icon">
