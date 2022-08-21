@@ -9,6 +9,11 @@
     font-weight: 200;
     margin-right: 30px;
   }
+
+  .nav-link:hover {
+    background-color: rgb(198, 212, 0);
+    margin-right: 30px;
+  }
   
   .nav-item a:hover {
     color: rgb(198, 212, 0);
